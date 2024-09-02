@@ -24,18 +24,18 @@ public class Task02 {
         System.out.println("The entered values are: " + firstNumberInteger + " " + secondNumberDouble + " " + thirdNumberInteger
                 + " " + fourthNumberDouble);
 
-        firstNumberDouble = (double) firstNumberInteger;
+        firstNumberDouble = firstNumberInteger;
         secondNumberInteger = (int) secondNumberDouble;
-        thirdNumberDouble = (double) thirdNumberInteger;
+        thirdNumberDouble = thirdNumberInteger;
         fourthNumberInteger = (int) fourthNumberDouble;
 
         System.out.println("The values after casted from integer to double and vice versa are: " + firstNumberDouble
                 + " " + secondNumberInteger + " " + thirdNumberDouble + " " + fourthNumberInteger);
 
         firstNumberInteger = (int) firstNumberDouble;
-        secondNumberDouble = (double) secondNumberInteger;
+        secondNumberDouble = secondNumberInteger;
         thirdNumberInteger = (int) thirdNumberDouble;
-        fourthNumberDouble = (double) fourthNumberInteger;
+        fourthNumberDouble = fourthNumberInteger;
 
         System.out.println("The values after casted again from integer to double and vice versa are: " + firstNumberInteger
                 + " " + secondNumberDouble + " " + thirdNumberInteger + " " + fourthNumberDouble);

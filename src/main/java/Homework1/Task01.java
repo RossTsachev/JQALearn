@@ -66,7 +66,7 @@ public class Task01 {
         double value;
 
         if (this.numbers.get(key) instanceof Integer) {
-            value = (double) ((Integer) this.numbers.get(key)).intValue();
+            value = ((Integer) this.numbers.get(key));
         } else {
             value = (double) this.numbers.get(key);
         }

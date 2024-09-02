@@ -9,7 +9,7 @@ public class Task04 {
         int workingHours;
         double money;
         boolean isFreeDay;
-        String finalMessage = "";
+        String finalMessage;
 
         workingHours = task4.getWorkingHours(scanner);
         money = task4.getAvailableMoney(scanner);
@@ -22,7 +22,7 @@ public class Task04 {
         if (isFreeDay) {
             if (money >= 10) {
                 finalMessage += "Therefore I will go to the cinema.";
-            } else if ((money > 0) && (money < 10)) {
+            } else if (money > 0) {
                 finalMessage += "Therefore I will go to buy ice-cream.";
             } else {
                 finalMessage += "Therefore I will stay home and watch TV.";
