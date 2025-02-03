@@ -29,7 +29,7 @@ public class AddItemToCartTest {
     }
 
     @Test
-    public void testAddition() {
+    public void addItemToCart() {
         // Go to site
         driver.get("https://www.saucedemo.com/");
 
